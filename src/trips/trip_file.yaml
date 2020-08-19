@@ -1,0 +1,44 @@
+---
+id: "asandy-beach-wi-2020"
+title: "Attic Weekend Camping 2020"
+subtitle: "Mega Sandy Beach"
+linkTitle: "Attic Weekend Camping 2020"
+mapCenter:
+  lat: 50.1017809
+  lng: -89.9704682
+mapZoomLevels:
+  desktop: 7
+  mobile: 7
+entries:
+  - id: "1"
+    title: "Camping with Sarah and Nora"
+    date: "August 15th, 2020"
+    coords:
+      - "50.1017809"
+      - "-89.9704682"
+    content: "Pictures from our send-off for Sarah and Nora before they left for Tacoma, WA."
+    photos:
+      - id: "1-1"
+        caption: "Monk being a goofball."
+---
+id: "sandy-beach-wi-2020"
+title: "Attic Weekend Camping 2020"
+subtitle: "Mega Sandy Beach"
+linkTitle: "Attic Weekend Camping 2020"
+mapCenter:
+  lat: 46.1017809
+  lng: -89.9704682
+mapZoomLevels:
+  desktop: 7
+  mobile: 7
+entries:
+  - id: "1"
+    title: "Camping with Sarah and Nora"
+    date: "August 15th, 2020"
+    coords:
+      - "46.1017809"
+      - "-89.9704682"
+    content: "Pictures from our send-off for Sarah and Nora before they left for Tacoma, WA."
+    photos:
+      - id: "1-1"
+        caption: "Monk being a goofball."

@@ -1,7 +1,9 @@
 const path = require('path');
+const yaml = require('js-yaml');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -39,6 +41,19 @@ module.exports = {
     ]
   },
   plugins: [
+    new CopyWebpackPlugin({ patterns: [
+      {
+        from: path.resolve(__dirname, "src/trips/trip_file.yaml"),
+        to: path.resolve(__dirname, "src/trips/trips.json"),
+        force: true,
+        transform: (content) => Buffer.from(
+          JSON.stringify(
+            yaml.safeLoadAll(content.toString('utf8'), { schema: yaml.JSON_SCHEMA })
+          ),
+          'utf8'
+        )
+      },
+    ]}),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['dist', '!dist/images']
     }),
