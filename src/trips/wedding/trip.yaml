@@ -6,5 +6,5 @@ mapCenter:
   lat: 43.074589
   lng: -89.398751
 mapZoomLevels:
-  desktop: 7
-  mobile: 7
+  desktop: 12
+  mobile: 12
