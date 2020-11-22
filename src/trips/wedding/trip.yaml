@@ -1,0 +1,10 @@
+id: "wedding-2016"
+title: "Getting Married 2016"
+subtitle: "Madison, WI"
+linkTitle: "Getting Married 2016"
+mapCenter:
+  lat: 43.074589
+  lng: -89.398751
+mapZoomLevels:
+  desktop: 7
+  mobile: 7

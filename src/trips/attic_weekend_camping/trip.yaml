@@ -1,0 +1,10 @@
+id: "sandy-beach-wi-2020"
+title: "Attic Weekend Camping 2020"
+subtitle: "Mega Sandy Beach"
+linkTitle: "Attic Weekend Camping 2020"
+mapCenter:
+  lat: 46.1017809
+  lng: -89.9704682
+mapZoomLevels:
+  desktop: 7
+  mobile: 7
