@@ -14,7 +14,7 @@ import './Map.scss';
 
 const Map = ({ onZoomChange, trips, selectedTrip }) => {
 
-  let center = { lat: 63.08843, lng: -7.66545 };
+  let center = { lat: 42.61876124582487, lng: -88.21403593421857 };
   let zoomLevels = { desktop: 4, mobile: 2 };
   if (selectedTrip) {
     center = selectedTrip.mapCenter;
